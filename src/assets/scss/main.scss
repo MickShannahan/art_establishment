@@ -1,0 +1,44 @@
+@import "./_variables.scss";
+@import "bootstrap";
+@import "./_transitions.scss";
+@import "./_overrides.scss";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
+
+:root {
+  --grey: #141414;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+body {
+  margin : 0;
+  font-family : open sans,helvetica neue,Helvetica,Arial,sans-serif;
+  font-size : 14px;
+  line-height : 1.8;
+  color : #bbb;
+  background-color : #171717;
+  letter-spacing : .015em;
+}
+
+.bg-fade{
+  background-color: $fade;
+}
+
+.establishment{
+  stroke: #171717 2px solid;
+}
+
+
