@@ -54,15 +54,15 @@ export default {
   overflow: hidden;
 }
 
+
+.project:hover{
+  outline: solid 1px var(--light);
+transform: scale(1.075);
+  box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.4);
+}
 .pictures{
   height: 100%;
   overflow: hidden;
-}
-
-.project:hover{
-outline: solid 1px var(--light);
-transform: scale(1.075);
-  box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.4);
 }
 
 .secondImg{
